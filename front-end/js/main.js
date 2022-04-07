@@ -78,7 +78,7 @@ recognition.onresult = (e) => {
         $.ajax
             ({
                 type: "GET",
-                url: "https://ihc-jamk.000webhostapp.com/backend/setStatusServo.ph",
+                url: "https://ihc-jamk.000webhostapp.com/backend/setStatusServo.php",
                 data: dataString,
                 
                 success: function (res) {
